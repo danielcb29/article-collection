@@ -9,9 +9,11 @@ const Article = ({ data, loading, error }) => {
   const [article] = data.articleCollection.items;
 
   return (
-    <article>
-      <h1>{article.title}</h1>
-    </article>
+    <main>
+      <article>
+        <h1>{article.title}</h1>
+      </article>
+    </main>
   );
 };
 

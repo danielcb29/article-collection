@@ -24,6 +24,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'implicit-arrow-linebreak': 'off',
     'import/prefer-default-export': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
   },
   settings: {
     'import/resolver': {
