@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.4",
+    "@contentful/rich-text-react-renderer": "^13.4.0",
     "apollo-boost": "^0.4.7",
     "apollo-cache-inmemory": "^1.6.5",
     "apollo-client": "^2.6.8",

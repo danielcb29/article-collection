@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { GET_ARTICLE } from '../../queries/articles';
+import ArticleDetail from '../../components/article-detail/ArticleDetail';
 
 const Article = ({ data, loading, error }) => {
   if (loading) return <div>Loading..</div>;
@@ -10,9 +11,7 @@ const Article = ({ data, loading, error }) => {
 
   return (
     <main>
-      <article>
-        <h1>{article.title}</h1>
-      </article>
+      <ArticleDetail data={article} />
     </main>
   );
 };
